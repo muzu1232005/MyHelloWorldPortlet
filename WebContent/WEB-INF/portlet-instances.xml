@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deployments PUBLIC 
+"-//JBoss Portal//DTD Portlet Instances 2.6//EN"
+"http://www.jboss.org/portal/dtd/portlet-instances_2_6.dtd">
+
+<deployments>
+	<deployment>
+		<instance>
+			<instance-id>HelloWorldPortletInstance</instance-id>
+			<portlet-ref>HelloWorldPortlet</portlet-ref>
+		</instance>
+	</deployment>
+	<deployment>
+		<instance>
+			<instance-id>MultipleModePortletInstance</instance-id>
+			<portlet-ref>MultipleModePortlet</portlet-ref>
+		</instance>
+	</deployment>
+	<deployment>
+		<instance>
+			<instance-id>WindowStateShifterInstance</instance-id>
+			<portlet-ref>WindowStateShifter</portlet-ref>
+		</instance>
+	</deployment>
+	<deployment>
+		<instance>
+			<instance-id>SimplePortletSessionInstance</instance-id>
+			<portlet-ref>SimplePortletSession</portlet-ref>
+		</instance>
+	</deployment>
+	<deployment>
+		<instance>
+			<instance-id>NumberGuesserInstance</instance-id>
+			<portlet-ref>NumberGuesser</portlet-ref>
+		</instance>
+	</deployment>
+</deployments>
